@@ -56,12 +56,18 @@ body {
 }
 
 .montpic {
-    max-height: 250px;
-    max-width: 200px;
+    height: 250px;
+    width: 200px;
     border: 2px hidden white;
     border-radius: 50%;
     margin-top: 10px;
 }
+
+.montpic:hover {
+    height: 400px;
+    width: 500px;
+}
+
 #mustsee {
     display: block;
     margin: 100px auto;
